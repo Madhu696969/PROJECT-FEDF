@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import StatCard from "../../components/StatCard"; 
 import AdminNavbar from "../../components/AdminNavbar";
-import "./profile.css";
+import "./Profile.css";
 
 const AdminProfile = () => {
   const navigate = useNavigate(); // Hook for navigation
